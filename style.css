@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+/* font-family: 'Zen Antique Soft', serif; */
+
+.fullpage-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+.judul{
+    position: absolute;
+    margin-bottom: 35rem;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-container {
+    width: 500px;
+    height: 350px;
+    background: #0b5c5c;
+    border: 1px solid red;
+}
+
+.pwresults {
+    height: 70px;
+    background: white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#randomPassword {
+    padding-top: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 35px;
+    /* text-align: center; */
+}
+
+.option {
+    height: 40px;
+}
+
+.col-right {
+    display: flex;
+    justify-content: right;
+}
+
+#passwordLenght {
+    height: 30px;
+}
+
+.optionLabel {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#buttonRandom {
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+}
+
+#buttonRandom:hover{
+    background: rgb(233, 230, 230);
+}
+
+.footerfhr{
+    margin-top: 43rem;
+    color: white;
+    position: absolute;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.notes{
+    height: 180px;
+    width: 200px;
+    background-color: thistle;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+.notes ul {
+    list-style-type: none;
+    margin-left: -20px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="fullpage-container">
+        <h1 class="judul">Random Password Generator</h1>
+        <div class="content-container">
+            <div class="results-container">
+                <div class="pwresults">
+                    <p id="randomPassword"></p>
+                </div>
+            </div>
+            <div class="option-container">
+                <div class="container">
+                    <div class="row option">
+                        <div class="col-6">
+                            <label class="optionLabel" for="passwordLenght">Password Lenght</label>
+                        </div>
+                        <div class="col-6 col-right">
+                            <input id="passwordLenght" type="number" max="17" min="8">
+                        </div>
+                    </div>
+                    <div class="row option">
+                        <div class="col-6">
+                            <label class="optionLabel" for="upperCaseOption">Contains upper case</label>
+                        </div>
+                        <div class="col-6 col-right">
+                            <input id="upperCaseOption" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="row option">
+                        <div class="col-6">
+                            <label class="optionLabel" for="lowerCaseOption">Contains lower case</label>
+                        </div>
+                        <div class="col-6 col-right">
+                            <input id="lowerCaseOption" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="row option">
+                        <div class="col-6">
+                            <label class="optionLabel" for="numberOption">Contains number</label>
+                        </div>
+                        <div class="col-6 col-right">
+                            <input id="numberOption" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="row option">
+                        <div class="col-6">
+                            <label class="optionLabel" for="specialCharOption">Contains special character</label>
+                        </div>
+                        <div class="col-6 col-right">
+                            <input id="specialCharOption" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="buttonContainer">
+                    <button id="buttonRandom">make it</button>
+                </div>
+            </div>
+        </div>
+        <p class="footerfhr">
+            Design and Develop by YourSpaceCapt @covidEdition
+        </p>
+        <div class="notes">
+            <ul>
+                <li>
+                    <p>Cara penggunaan :</p>
+                </li>
+                <li>
+                    <p>1. Masukkan panjang password</p>
+                </li>
+                <li>
+                    <p>2. Centang ketentuan</p>
+                </li>
+                <li>
+                    <p>3. Klik button generate</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- javascript project  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
